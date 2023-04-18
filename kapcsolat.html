@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="img/logo.webp">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="kapcsolat.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Mos Dorel</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid ml-5" width="30%" src="img/logo.webp" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" style="font-size: 23px;">
+            <a class="nav-item nav-link " href="index.html">Főoldal <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="szolgaltatasok.html">Szolgáltatások</a>
+            <a class="nav-item nav-link active" href="#">Kapcsolat</a>
+            <a class="nav-item nav-link" href="rolunk.html">Rólunk</a>
+            <a class="nav-item nav-link" href="galeria.html">Galéria</a>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+
+<div class="container mt-5 bg-light rounded pt-2 pb-2">
+
+
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4" style="font-family: sans-serif;">Kapcsolatfelvétel</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5"style="font-family: sans-serif;">Fel szeretné venni velünk a kapcsolatot? Ezt egyszerűen megteheti. Csak töltse ki a mezőket, és amint tudunk, válaszolunk Önnek.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                    <!--Grid column-->
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroupPrepend"><img src="img/name.png" alt=""></span>
+                        </div>
+                        <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                    </div>
+                </div>
+
+                <!--Grid column-->
+           
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-4">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroupPrepend"><img src="img/email.png" alt=""></span>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                              Please choose a username.
+                            </div>
+                          </div>
+                    <!--Grid column-->
+                </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject"placeholder="Tárgy" class="form-control">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12 mb-3">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message"placeholder="Üzenet" rows="2" class="form-control md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Árajánlat-kérés
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Egyéb
+                        </label>
+                      </div>
+                  </div>
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-warning" onclick="document.getElementById('contact-form').submit();">Küldés</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"><img src="img/kp.png" alt=""></i>
+                    <p>Ügyintézőnk: Magabohóc személyesen, tele áldásokkal a tarsolyában.</p>
+                </li>
+
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container-fluid bg-light shadow-lg mt-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <p style="font-size: 50px; font-family: sans-serif;"class="ml-5 mt-5">MOS DOREL</p>
+        <p style="font-family: sans-serif; text-indent: 15px;" class="ml-5">Cím: 175, Săcășeni 447275, Románia</p>
+        <p style="font-family: sans-serif; text-indent: 15px;" class="ml-5">Telefon: 573256111</p>
+        <p style="font-family: sans-serif; text-indent: 15px;" class="ml-5">Email: mosro@gmail.com</p>
+        <br>
+        <p style="font-family: sans-serif; text-indent: 15px;" class="ml-5">© 2023 Mos Dorel Srl.</p>
+        </div>
+          <div class="col-lg-6">
+            <div class="map-responsive h-50 rounded">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2775.2445699695163!2d22.68090347649001!3d47.48526188152247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4747e519a28cb17b%3A0xbb03664e5d9f3032!2sMOS!5e0!3m2!1shu!2shu!4v1681399761501!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+    </div>
+  </div>
+<!--Section: Contact v.2-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
