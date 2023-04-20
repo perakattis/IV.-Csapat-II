@@ -61,8 +61,26 @@
   </div>
 <br>
 <br>
-<br>
-<div class="container bg-light rounded mt-5 mb-5 pt-4">
+
+
+<div class="container-fluid bg-light pt-5 pb-5 lol shadow-sm">
+  <div class="row">
+    <div class="col-lg-4">
+      <p style="font-size: 33px; font-family: sans-serif; font-weight: 500;" class="text-center">Eladott tartályok száma</p>
+      <div id="counter" class="text-center" style="font-size: 40px;"></div>
+    </div>
+    <div class="col-lg-4">
+      <p style="font-size: 33px; font-family: sans-serif; font-weight: 500;" class="text-center">Megelégedett ügyfelek</p>
+      <div id="counter1" class="text-center" style="font-size: 40px;"></div>
+    </div>
+    <div class="col-lg-4">
+      <p style="font-size: 33px; font-family: sans-serif; font-weight: 500;" class="text-center">Megspórolt lei (somer)</p>
+      <div id="counter2" class="text-center" style="font-size: 40px;"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container bg-light rounded mt-5 mb-5 pt-4 shadow-sm">
     <div class="row">
       <div class="col-lg-4"></div>
         <div class="col-lg-4 text-center m-auto"><b> <p class="ja " style="font-size: 65px; font-family: sans-serif;">RÓLUNK</p></div></b>
@@ -94,7 +112,7 @@
 
 
 
-<div class="container pt-2 pb-2 lol pull-right mt-5 bg-light rounded">
+<div class="container pt-2 pb-2 lol pull-right mt-5 bg-light rounded shadow-sm">
   <div class="row">
   <div class="col-lg-4">
   <div class="card text-center sticky w-100" style="width: 18rem;"><br>
@@ -156,6 +174,42 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      let counts=setInterval(updated);
+      let upto=0;
+      function updated(){
+          var count= document.getElementById("counter");
+          count.innerHTML=++upto;
+          if(upto===442)
+          {
+              clearInterval(counts);
 
+          }
+      }
+  </script>
+  <script>
+    let counts1=setInterval(updated);
+    let upto1=-1;
+    function updated(){
+        var count1= document.getElementById("counter1");
+        count1.innerHTML=++upto1;
+        if(upto1===0)
+        {
+            clearInterval(counts1);
+        }
+    }
+</script>
+<script>
+  let counts2=setInterval(updated);
+  let upto2=0;
+  function updated(){
+      var count2= document.getElementById("counter2");
+      count2.innerHTML=++upto2;
+      if(upto2===504)
+      {
+          clearInterval(counts2);
+      }
+  }
+</script>
   </body>
 </html>
