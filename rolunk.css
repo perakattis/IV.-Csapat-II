@@ -27,6 +27,6 @@
   div.sticky {
     z-index: 300;
     position: sticky;
-    top: 270px;
+    top: 200px;
 
   }
