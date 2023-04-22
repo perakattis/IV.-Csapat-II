@@ -65,6 +65,9 @@
     position:relative;
     height:0;
 }
+.sm-nav {
+  text-indent: 10px;
+}
 .map-responsive iframe{
     left:0;
     top:0;

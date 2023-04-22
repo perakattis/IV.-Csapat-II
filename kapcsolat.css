@@ -15,7 +15,9 @@
     display: inline-block;
     position: relative;
   }
-  
+  .sm-nav {
+    text-indent: 10px;
+}
   .hover-underline-animation::after {
     content: '';
     position: absolute;

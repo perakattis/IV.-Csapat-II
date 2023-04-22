@@ -94,7 +94,9 @@
       }
 
 
-  
+      .sm-nav {
+        text-indent: 10px;
+    }
       .map-responsive{
         overflow:hidden;
         padding-bottom: 61%;
