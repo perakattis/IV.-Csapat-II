@@ -108,6 +108,8 @@
         width:100%;
         position:absolute;
     }
-  
+    .nav-link {
+      font-size: 22px;
+    }
   
   
