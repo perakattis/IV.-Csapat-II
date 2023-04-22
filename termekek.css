@@ -1,3 +1,22 @@
 .nav-link {
     font-size: 22px;
   }
+  div.sticky {
+    z-index: 300;
+    position: sticky;
+    top: 200px;
+
+  }
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom: 61%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+
+    width:100%;
+    position:absolute;
+}
