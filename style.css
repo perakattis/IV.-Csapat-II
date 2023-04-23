@@ -1,15 +1,14 @@
 .ja {
   box-shadow: inset 0 0 0 0 #ffc107;
-  
+  color: #FFCC00;
   padding: 0 .25rem;
   margin: 0 -.25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 .ja:hover {
-  color: #fff;
+  color: #FFFFFF;
   box-shadow: inset 360px 0 0 0 #ffc107;;
 }
-
 
 /* Presentational styles */
 .ja {
@@ -21,7 +20,7 @@
 }
 .ja1 {
     box-shadow: inset 0 0 0 0 #ffc107;
-    
+    color: #FFCC00;
     padding: 0 .25rem;
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -41,7 +40,7 @@
   }
   .ja2 {
     box-shadow: inset 0 0 0 0 #ffc107;
-    
+    color: #FFCC00;
     padding: 0 .25rem;
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -121,13 +120,7 @@ img {
   max-width: 100% !important;
   height: auto;
 }
-a {
-  text-decoration: none;
-  color: #f0ad4e;
-}
-a:hover {
-  text-decoration: underline;
-}
+
 
 *[class=main-wrapper],
 *[class=main-content]{
