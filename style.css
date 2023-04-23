@@ -58,21 +58,20 @@
     line-height: 1.5;
     text-decoration: none;
   }
-  .map-responsive{
-    overflow:hidden;
-    padding-bottom: 50%;
-    position:relative;
-    height:0;
-}
+
 .sm-nav {
   text-indent: 10px;
 }
+.map-responsive{
+  overflow:hidden;
+  padding-bottom: 50%;
+  position:relative;
+}
 .map-responsive iframe{
-    left:0;
-    top:0;
-
-    width:100%;
-    position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  position:absolute;
 }
 
 * [lang~="x-star-wrapper"]:hover *[lang~="x-star-number"]{
