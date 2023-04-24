@@ -20,7 +20,27 @@
   }
   
   
+  .line-1{
+
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+  }
   
+  /* Animation */
+  .anim-typewriter{
+  animation: typewriter 1.5s steps(100) 0s 1 normal both,
+             blinkTextCursor 500ms steps(100) infinite normal;
+  }
+  @keyframes typewriter{
+  from{width: 0;}
+  to{width: 55  0px;}
+  }
+  @keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.0);}
+  to{border-right-color: transparent;}
+  }
   
   
   

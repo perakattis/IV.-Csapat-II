@@ -17,3 +17,26 @@
 .sm-nav {
   text-indent: 10px;
 }
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 0.5s steps(100) 0s 1 normal both,
+             blinkTextCursor 500ms steps(100) infinite normal;
+  }
+  @keyframes typewriter{
+  from{width: 0;}
+  to{width: 350px;}
+  }
+  @keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+  }
+  .anim-typewriter2{
+    animation: typewriter 1.1s steps(100) 0s 1 normal both,
+               blinkTextCursor 500ms steps(100) infinite normal;
+    }
+    
+  
+    @keyframes blinkTextCursor2{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+    }
