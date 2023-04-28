@@ -9,7 +9,7 @@
       height: 100vh;
     }
   }
-  
+
   video {
     object-fit: cover;
     position: absolute;
