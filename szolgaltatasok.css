@@ -2,12 +2,9 @@
 /*****************************************************/
 
 .video-container {
-    height: 50vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
-    @media(min-width: 600px) {
-      height: 100vh;
-    }
   }
 
   video {
@@ -34,8 +31,8 @@
              blinkTextCursor 500ms steps(100) infinite normal;
   }
   @keyframes typewriter{
-  from{width: 0;}
-  to{width: 55  0px;}
+  from{width: 0px;}
+  to{width: 1000px;}
   }
   @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.0);}
@@ -64,24 +61,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(black, .2);
     z-index: 1;
-  }
-  
-  h1 {
-    text-transform: uppercase;
-    font-weight: 900;
-    margin: 0 0 1rem;
-    padding: 0;
-    line-height: 1;
-    font-family: Futura, Helvetica, sans-serif;
-    font-size: 5vw;
-    @media (max-width: 400px) {
-      font-size: 22px;
-    }
-    @media (min-width: 1200px) {
-      font-size: 75px;
-    }
   }
   
   .callout {
