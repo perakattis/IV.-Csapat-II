@@ -38,3 +38,9 @@
   .nav-link {
     font-size: 22px;
   }
+  div.sticky {
+    z-index: 300;
+    position: sticky;
+    top: 200px;
+
+  }
